@@ -9,9 +9,9 @@
 	Je suis photographe de mariage, photographe d’événements, photographe de portrait, photographe pour les professionnels.">
 	<meta name="keywords" content="Photographe, photographe grossesse, photographe mariage pas cher">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" defer>
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<!-- ajout min utilisation version minimisée + defer-->
-	<link rel="stylesheet" href="./assets/style.min.css" preload>
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
@@ -111,7 +111,7 @@
 						srcset="./assets/images/slider/ryoji-iwata/ryoji-iwata-desktop.jpeg" width="1920"
 						type="image/jpeg">
 					<img src="./assets/images/slider/ryoji-iwata/ryoji-iwata.jpeg "
-						alt="image d'un homme en costume, de dos, qui marche">
+						alt="image d'un homme en costume, de dos, qui marche" loading="lazy">
 				</picture>
 			</div>
 
@@ -510,11 +510,11 @@
 				<h3>Une question ? Une demande de devis ?</h3>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
-					<label>Nom</label>
+					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom" required> <!-- ajout de l'attribut "required" -->
-					<label>Email</label>
+					<label for="email">Email</label>
 					<input type="email" name="email" id="email" required> <!-- ajout de l'attribut "required" -->
-					<label>Message</label>
+					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10" required></textarea>
 					<!-- ajout de l'attribut "required" -->
 					<input type="submit" value="Envoyer" />
@@ -543,7 +543,7 @@
 
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
 		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.min.js"></script>
+	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
 
 </body>
