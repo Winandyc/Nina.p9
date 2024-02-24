@@ -1,0 +1,12 @@
+P9 details :
+
+-Les balises Open Graph FB, INSTA et TWITTER : Faites à la main en suivant un modèle sur internet. Pour TWITTER, idem sauf que TWITTER a ses propres balises.
+-La partie SEO est écrite à la main, en se basant sur les données RICH SNIPPETS envoyées par Schema.org.
+
+-L'attribut "required" indique au navigateur que ce champ doit être rempli avant que le formulaire puisse être soumis.
+-L'attribut "autocomplete="email"" permet au navigateur de suggérer des adresses email précédemment utilisées lors de la saisie automatique.
+
+-Rich Snippets : Ce sont des données qui sont utilisées par les moteurs de recherche pour comprendre et afficher des informations spécifiques sur une entreprise, un produit, un événement, etc. Produites grâce au site "Schema.org".
+
+-L'attribut Lazy :  Sert à retarder le chargement des images jusqu'à ce qu'elles soient nécessaires.
+-L'attribut Eager : Sert à indiquer au navigateur que l'image devrait être chargée dès que possible, sans attendre que la page entière soit chargée. Elle est utilisée pour spécifier que l'image est importante et doit être affichée rapidement.
